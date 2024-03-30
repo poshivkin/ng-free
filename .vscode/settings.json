@@ -1,0 +1,21 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Default Dark+",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveSassCompile.settings.showOutputWindowOn": "None",
+  "editor.fontSize": 14,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.tabSize": 2
+}
