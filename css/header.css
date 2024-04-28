@@ -1,6 +1,7 @@
 .header {
   padding: 10px 15px;
   border-bottom: 1px solid #aaa;
+  margin-bottom: 100vh;
 }
 
 .header__wrapper {
