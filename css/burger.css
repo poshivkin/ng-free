@@ -17,16 +17,17 @@
 .burger.active::after {
   bottom: 50%;
   transform: translateY(50%) rotate(-45deg);
+  transition: all 2s;
 }
 
 .burger::before {
-  content: "";
+  display: block; 
+  content: '';
   width: 100%;
   height: 2px;
   background: red;
   position: absolute;
   top: 0;
-  transform: rotate(45deg);
   left: 0;
 }
 
@@ -38,7 +39,8 @@
 }
 
 .burger::after {
-  content: "";
+  display: block;
+  content: '';
   width: 100%;
   height: 2px;
   background: green;
