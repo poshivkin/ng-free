@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/menu.css" />
     <link rel="stylesheet" href="./css/burger.css" />
@@ -16,7 +17,7 @@
     <header class="header">
       <div class="header__wrapper">
         <button class="header__logo" type="button" id="logo">
-          <img src="./assets/icons/logo.svg" alt="logo"/>
+          <img src="./assets/icons/logo.svg" alt="logo" />
         </button>
         <nav class="header__nav">
           <ul class="menu">
@@ -48,10 +49,12 @@
           </label>
           <!-- THEME -->
           <button class="header__theme" type="button" id="theme">
-            <img src="./assets/icons/moon.svg" alt="moon"/>
+            <img src="./assets/icons/moon.svg" alt="moon" />
           </button>
           <!-- BURGER -->
-          <button class="burger" type="button" id="burger"></button>
+          <button class="burger active" type="button" id="burger">
+            <span></span>
+          </button>
         </div>
       </div>
     </header>
@@ -60,7 +63,10 @@
       <div class="download__wrapper">
         <div class="download__text-block">
           <h1 class="download__title">Peaceful shopping mindful money</h1>
-          <p class="download__text">See how we can help with making your shopping experience and money management more ZEN.</p>
+          <p class="download__text">
+            See how we can help with making your shopping experience and money
+            management more ZEN.
+          </p>
         </div>
         <div class="download__links">
           <a class="download__link" href="https://apple.com">
@@ -80,8 +86,16 @@
       <div class="warranty__wrapper">
         <div class="warranty__text-block">
           <h2 class="warranty__title">1-year warranty boost</h2>
-          <p class="warranty__text">ZEN cards have a very neat feature that will help you whenever your electronic devices start failing after the standard warranty ends, which is pretty common.</p>
-          <p class="warranty__text">When you buy any electronics with your ZEN shopping Mastercard, their warranty gets extended by one year. How does it work? It simply does. Automatically.</p>
+          <p class="warranty__text">
+            ZEN cards have a very neat feature that will help you whenever your
+            electronic devices start failing after the standard warranty ends,
+            which is pretty common.
+          </p>
+          <p class="warranty__text">
+            When you buy any electronics with your ZEN shopping Mastercard,
+            their warranty gets extended by one year. How does it work? It
+            simply does. Automatically.
+          </p>
         </div>
         <div class="warranty__image-block">
           <img src="./assets/images/2.jpg" alt="Basket" />
@@ -93,9 +107,16 @@
       <div class="care__wrapper">
         <div class="care__text-block">
           <h2 class="care__title">ZEN Care</h2>
-          <p class="care__text">Shopping online is usually a delightful experience. Until it's not.</p>
-          <p class="care__text">Until something you buy, proves to be faulty, missing or a totally wrong item, you’re in for long product return procedures.</p>
-          <p class="care__text">But, here comes ZEN Care: a free, built-in shopping protection.</p>
+          <p class="care__text">
+            Shopping online is usually a delightful experience. Until it's not.
+          </p>
+          <p class="care__text">
+            Until something you buy, proves to be faulty, missing or a totally
+            wrong item, you’re in for long product return procedures.
+          </p>
+          <p class="care__text">
+            But, here comes ZEN Care: a free, built-in shopping protection.
+          </p>
         </div>
         <div class="care__image-block">
           <img src="./assets/images/3.jpg" alt="Basket" />
@@ -107,10 +128,20 @@
       <div class="cashback__wrapper">
         <div class="cashback__text-block">
           <h2 class="cashback__title">and cashback!</h2>
-          <p class="cashback__text">It saves a little bit of money while you’re shopping, but in many cases it takes ages to get anything out of it.</p>
-          <p class="cashback__text">We gave it a thought and made cashback way more friendly.</p>
-          <p class="cashback__text">Up to 14% of what you spend using ZEN Mastercard ® will materialize on your account right after the purchase.</p>
-          <button class="cashback__button" type="button" id="order-open">Order a consultation</button>
+          <p class="cashback__text">
+            It saves a little bit of money while you’re shopping, but in many
+            cases it takes ages to get anything out of it.
+          </p>
+          <p class="cashback__text">
+            We gave it a thought and made cashback way more friendly.
+          </p>
+          <p class="cashback__text">
+            Up to 14% of what you spend using ZEN Mastercard ® will materialize
+            on your account right after the purchase.
+          </p>
+          <button class="cashback__button" type="button" id="order-open">
+            Order a consultation
+          </button>
         </div>
       </div>
     </section>
@@ -119,28 +150,28 @@
       <div class="clients__wrapper">
         <ul class="clients__brands">
           <li class="clients__brand">
-            <img src="./assets/brands/1.svg" alt="Brand 1"/>
+            <img src="./assets/brands/1.svg" alt="Brand 1" />
           </li>
           <li class="clients__brand">
-            <img src="./assets/brands/2.svg" alt="Brand 2"/>
+            <img src="./assets/brands/2.svg" alt="Brand 2" />
           </li>
           <li class="clients__brand">
-            <img src="./assets/brands/3.svg" alt="Brand 3"/>
+            <img src="./assets/brands/3.svg" alt="Brand 3" />
           </li>
           <li class="clients__brand">
-            <img src="./assets/brands/4.svg" alt="Brand 4"/>
+            <img src="./assets/brands/4.svg" alt="Brand 4" />
           </li>
           <li class="clients__brand">
-            <img src="./assets/brands/5.svg" alt="Brand 5"/>
+            <img src="./assets/brands/5.svg" alt="Brand 5" />
           </li>
           <li class="clients__brand">
-            <img src="./assets/brands/6.svg" alt="Brand 6"/>
+            <img src="./assets/brands/6.svg" alt="Brand 6" />
           </li>
           <li class="clients__brand">
-            <img src="./assets/brands/7.svg" alt="Brand 7"/>
+            <img src="./assets/brands/7.svg" alt="Brand 7" />
           </li>
           <li class="clients__brand">
-            <img src="./assets/brands/8.svg" alt="Brand 8"/>
+            <img src="./assets/brands/8.svg" alt="Brand 8" />
           </li>
         </ul>
       </div>
@@ -228,7 +259,7 @@
             <!-- Item 1 -->
             <li class="column__item">
               <a href="https://example.com">English</a>
-              <img src="./assets/icons/in.svg" alt="Linkedin"/>
+              <img src="./assets/icons/in.svg" alt="Linkedin" />
             </li>
           </ul>
         </div>
@@ -238,7 +269,9 @@
           <ul class="column__list">
             <!-- Item 1 -->
             <li class="column__item">
-              <a class="footer__logo" href="mailto:hello@zen.com">hello@zen.com</a>
+              <a class="footer__logo" href="mailto:hello@zen.com"
+                >hello@zen.com</a
+              >
             </li>
           </ul>
         </div>
@@ -246,16 +279,28 @@
       <!-- Info -->
       <div class="footer__info">
         <a href="https://example.com">
-          <img src="./assets/icons/logo2.svg" alt="logo"/>
+          <img src="./assets/icons/logo2.svg" alt="logo" />
         </a>
-        <p class="footer__copy">ZEN is a licensed financial institution under the supervision of the Central Bank of Lithuania approved by European Banking Authority for 31 countries.</p>
-        <p class="footer__copy">Registration number of the company 304749651, VAT ID LT100011714916.</p>
-        <p class="footer__copy">License of electronic money institutions number LB000457.</p>
+        <p class="footer__copy">
+          ZEN is a licensed financial institution under the supervision of the
+          Central Bank of Lithuania approved by European Banking Authority for
+          31 countries.
+        </p>
+        <p class="footer__copy">
+          Registration number of the company 304749651, VAT ID LT100011714916.
+        </p>
+        <p class="footer__copy">
+          License of electronic money institutions number LB000457.
+        </p>
         <p class="footer__copy">Share capital 2.185.000,00 EUR.</p>
-        <p class="footer__copy">Company address: Mėsinių g. 5, LT-01133, Vilnius, Lithuania.</p>
-        <p class="footer__copy">Sales Office: ul. Emilii Plater 53, 00-113 Warsaw, Poland.</p>
+        <p class="footer__copy">
+          Company address: Mėsinių g. 5, LT-01133, Vilnius, Lithuania.
+        </p>
+        <p class="footer__copy">
+          Sales Office: ul. Emilii Plater 53, 00-113 Warsaw, Poland.
+        </p>
         <a href="https://example.com">
-          <img src="./assets/icons/developer.svg" alt="Developer"/>
+          <img src="./assets/icons/developer.svg" alt="Developer" />
         </a>
       </div>
     </footer>
@@ -264,26 +309,26 @@
       <div class="modal__body">
         <!-- Close -->
         <button class="modal__close" id="close">
-          <img src="./assets/icons/close.svg" alt="close"/>
+          <img src="./assets/icons/close.svg" alt="close" />
         </button>
         <!-- Title -->
         <h3 class="modal__title">Order a consultation</h3>
-        <!-- Form --> 
+        <!-- Form -->
         <form class="form" id="order">
           <!-- Name -->
           <label class="form__input">
             <span>Name</span>
-            <input type="text" id="name"/>
+            <input type="text" id="name" />
           </label>
           <!-- Tel. -->
           <label class="form__input">
             <span>Tel.</span>
-            <input type="tel" id="tel"/>
+            <input type="tel" id="tel" />
           </label>
           <!-- E-mail -->
           <label class="form__input">
             <span>E-mail</span>
-            <input type="email" id="email"/>
+            <input type="email" id="email" />
           </label>
           <!-- Connection -->
           <label class="form__select">
@@ -295,8 +340,10 @@
           </label>
           <!-- Privacy policy -->
           <label class="form__checkbox">
-            <input type="checkbox" id="policy"/>
-            <a href="https://example.com/policy" target="_blank">Privacy policy</a> 
+            <input type="checkbox" id="policy" />
+            <a href="https://example.com/policy" target="_blank"
+              >Privacy policy</a
+            >
           </label>
           <!-- Submit -->
           <button class="form__submit" type="submit">Submit</button>

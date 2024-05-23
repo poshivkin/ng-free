@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,6 +23,31 @@ ol {
 
 img {
   width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+select {
+  color: inherit;
+  appearance: none;
+  border: none;
+  background: none;
+}
+
+input {
+  background: none;
+  appearance: none;
+  border: none;
 }
 
 a {
