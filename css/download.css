@@ -1,6 +1,7 @@
 .download {
   padding: 30px 15px;
 }
+
 .download__wrapper {
   display: flex;
   flex-direction: column;
