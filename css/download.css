@@ -1,11 +1,8 @@
 .download {
   padding: 30px 15px;
 }
-.download__wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
+
+/* .download__wrapper {} */
 
 /* .download__text-block {} */
 
@@ -33,6 +30,7 @@
 }
 
 .download__image-block {
+  margin-top: 30px;
   height: 72vw;
   border: 1px solid #aaa;
   border-radius: 20px;
