@@ -27,3 +27,30 @@
   overflow: hidden;
   border: 1px solid #aaa;
 }
+
+@media screen and (min-width: 768px) {
+  .warranty {
+    padding: 30px 39px;
+  }
+
+  .warranty__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 30px;
+  }
+
+  .warranty__title {
+    font-size: 30px;
+  }
+
+  .warranty__image-block {
+    flex-shrink: 0;
+    margin-top: 0;
+    height: 34.5vw;
+  }
+
+  .warranty__image-block img {
+    height: 100%;
+  }
+}

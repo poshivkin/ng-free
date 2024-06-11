@@ -42,3 +42,30 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (min-width: 768px) {
+  .download {
+    padding: 30px 39px;
+  }
+
+  .download__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .download__title {
+    font-size: 36px;
+  }
+
+  .download__image-block {
+    flex-shrink: 0;
+    margin-top: 0;
+    height: 34.5vw;
+  }
+
+  .download__links {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
