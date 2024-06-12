@@ -2,11 +2,9 @@
   padding: 30px 15px;
 }
 
-.cashback__wrapper {
-}
+/* .cashback__wrapper {} */
 
-.cashback__text-block {
-}
+/* .cashback__text-block {} */
 
 .cashback__title {
   font-size: 26px;
@@ -30,4 +28,23 @@
   height: 50px;
   border-radius: 30px;
   border: 1px solid #aaa;
+}
+
+@media screen and (min-width: 768px) {
+  .cashback {
+    padding: 50px 155px;
+  }
+
+  .cashback__wrapper {
+    text-align: center;
+  }
+
+  .cashback__title {
+    font-size: 30px;
+  }
+
+  .cashback__button {
+    margin: 20px auto 0;
+    width: 225px;
+  }
 }

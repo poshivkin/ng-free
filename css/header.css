@@ -54,12 +54,23 @@
 }
 
 .header__lang select {
-  padding: 8px;
-  height: 100%;
-  width: 100%;
+  padding: 8px 6px 8px 8px;
+}
+
+#lang {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
 }
 
 .header__theme {
   width: 30px;
   height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__wrapper {
+    padding: 0 40px;
+  }
 }
