@@ -9,8 +9,8 @@
 
 .header__wrapper {
   height: 50px;
-  padding: 0 15px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .header__lang select {
-  padding: 8px 6px 8px 8px;
+  padding: 8px;
 }
 
 #lang {
@@ -70,7 +70,39 @@
 }
 
 @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1152px) {
   .header__wrapper {
-    padding: 0 40px;
+    height: 80px;
+  }
+
+  .header__logo {
+    width: 102px;
+    height: 40px;
+  }
+
+  .header__right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .header__lang {
+    width: 60px;
+    height: 40px;
+  }
+
+  #lang {
+    font-size: 18px;
+  }
+
+  .header__actions {
+    gap: 40px;
+  }
+
+  .header__theme {
+    width: 40px;
+    height: 40px;
   }
 }
