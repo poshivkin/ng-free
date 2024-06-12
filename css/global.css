@@ -9,3 +9,25 @@ html {
 body {
   padding-top: 50px;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 290px;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  body {
+    padding-top: 81px;
+  }
+  .container {
+    max-width: 930px;
+  }
+}

@@ -38,29 +38,9 @@ button {
   border: none;
 }
 
-select {
-  color: inherit;
-  appearance: none;
-  border: none;
-  background: none;
-}
-
-input {
-  background: none;
-  appearance: none;
-  border: none;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-button {
-  font-size: inherit;
-  color: inherit;
-  background: none;
-  border: none;
+select:active,
+select:focus {
+  outline: none;
 }
 
 select {

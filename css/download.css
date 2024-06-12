@@ -1,5 +1,5 @@
 .download {
-  padding: 30px 15px;
+  padding: 30px 0;
 }
 
 /* .download__wrapper {} */
@@ -31,7 +31,8 @@
 
 .download__image-block {
   margin-top: 30px;
-  height: 72vw;
+  width: 290px;
+  height: 230px;
   border: 1px solid #aaa;
   border-radius: 20px;
   overflow: hidden;
@@ -44,10 +45,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .download {
-    padding: 30px 40px;
-  }
-
   .download__wrapper {
     display: flex;
     align-items: center;
@@ -61,11 +58,35 @@
   .download__image-block {
     flex-shrink: 0;
     margin-top: 0;
-    height: 34.5vw;
+    width: 330px;
+    height: 260px;
   }
 
   .download__links {
     flex-direction: row;
     gap: 20px;
+  }
+
+  @media screen and (min-width: 1152px) {
+    .download {
+      padding: 40px 0;
+    }
+
+    .download__title {
+      font-size: 42px;
+    }
+
+    .download__wrapper {
+      gap: 40px;
+    }
+
+    .download__text {
+      font-size: 18px;
+    }
+
+    .download__image-block {
+      width: 445px;
+      height: 350px;
+    }
   }
 }
